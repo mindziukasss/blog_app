@@ -7,5 +7,5 @@ class Post(models.Model):
 	date = models.DateTimeField()
 
 	def __str__(self):
-			return self.true
+			return self.title
 
